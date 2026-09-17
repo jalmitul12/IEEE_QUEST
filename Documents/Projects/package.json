@@ -1,0 +1,39 @@
+{
+  "name": "aegis-pre-disaster-emergency-system",
+  "version": "1.4.0",
+  "description": "Secure academic full-stack pre-disaster detector and emergency management system",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "build": "node scripts/build-tailwind.js && node scripts/build.js",
+    "test": "node --test tests/integration.test.js",
+    "hello": "node scripts/script.js",
+    "json-write": "node scripts/app.js",
+    "json-display": "node scripts/display.js",
+    "json-read": "node scripts/read-json.js",
+    "json-matrix": "node scripts/multi-dimensional-JSON-display.js",
+    "check": "node scripts/self-check.js",
+    "verify": "npm run build && npm test",
+    "build:tailwind": "node scripts/build-tailwind.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "bootstrap": "5.3.3",
+    "chart.js": "4.4.7",
+    "cookie-parser": "1.4.6",
+    "express": "4.21.2",
+    "express-rate-limit": "7.5.0",
+    "jsonwebtoken": "9.0.2",
+    "leaflet": "1.9.4",
+    "morgan": "1.10.0",
+    "vue": "3.5.21",
+    "ws": "8.18.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.1.10"
+  }
+}

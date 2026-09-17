@@ -1,0 +1,51 @@
+[
+  {
+    "id": "NOT-1001",
+    "title": "Critical rainfall scenario",
+    "message": "Mumbai rainfall training alert is at Critical severity.",
+    "type": "Alert",
+    "severity": "Critical",
+    "timestamp": "2026-09-02T15:12:00Z"
+  },
+  {
+    "id": "NOT-1002",
+    "title": "Shelter capacity update",
+    "message": "Maninagar Civic Shelter has limited remaining capacity.",
+    "type": "Shelter",
+    "severity": "Moderate",
+    "timestamp": "2026-09-02T14:50:00Z"
+  },
+  {
+    "id": "NOT-1003",
+    "title": "Team Bravo responding",
+    "message": "Flood Rescue Bravo is responding to a riverbank incident.",
+    "type": "Team",
+    "severity": "High",
+    "timestamp": "2026-09-02T14:15:00Z",
+    "targetRole": "operator"
+  },
+  {
+    "id": "NOT-1004",
+    "title": "Preparedness reminder",
+    "message": "Review water, medicines, power bank, and emergency contacts.",
+    "type": "Preparedness",
+    "severity": "Low",
+    "timestamp": "2026-09-02T09:00:00Z"
+  },
+  {
+    "id": "NOT-1005",
+    "title": "Map dataset refreshed",
+    "message": "Simulated hazard and resource markers were refreshed.",
+    "type": "System",
+    "severity": "Low",
+    "timestamp": "2026-09-02T08:30:00Z"
+  },
+  {
+    "id": "NOT-1006",
+    "title": "Cyclone training alert",
+    "message": "Dwarka cyclone scenario remains at Severe risk.",
+    "type": "Alert",
+    "severity": "Severe",
+    "timestamp": "2026-09-02T08:00:00Z"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ALT-1001",
+    "type": "Flood",
+    "severity": "High",
+    "region": "Ahmedabad",
+    "risk": 76,
+    "message": "Heavy rainfall may cause local flooding in low-lying zones.",
+    "action": "Avoid flooded roads and monitor municipal advisories.",
+    "timestamp": "2026-09-02T15:30:00Z"
+  },
+  {
+    "id": "ALT-1002",
+    "type": "Cyclone",
+    "severity": "Severe",
+    "region": "Dwarka",
+    "risk": 83,
+    "message": "Strong winds and coastal surge are simulated in this academic scenario.",
+    "action": "Review evacuation routes and secure outdoor objects.",
+    "timestamp": "2026-09-02T14:20:00Z"
+  },
+  {
+    "id": "ALT-1003",
+    "type": "Heatwave",
+    "severity": "High",
+    "region": "Jaipur",
+    "risk": 72,
+    "message": "High heat stress is expected during afternoon hours.",
+    "action": "Hydrate and reduce outdoor activity.",
+    "timestamp": "2026-09-02T13:35:00Z"
+  },
+  {
+    "id": "ALT-1004",
+    "type": "Heavy Rainfall",
+    "severity": "Critical",
+    "region": "Mumbai",
+    "risk": 91,
+    "message": "Very heavy rainfall scenario indicates severe transport disruption.",
+    "action": "Avoid low-lying routes and follow verified local warnings.",
+    "timestamp": "2026-09-02T15:10:00Z"
+  },
+  {
+    "id": "ALT-1005",
+    "type": "Thunderstorm",
+    "severity": "Moderate",
+    "region": "Pune",
+    "risk": 51,
+    "message": "Lightning and gusty wind conditions are possible.",
+    "action": "Stay indoors and unplug sensitive equipment.",
+    "timestamp": "2026-09-02T12:55:00Z"
+  },
+  {
+    "id": "ALT-1006",
+    "type": "Landslide",
+    "severity": "High",
+    "region": "Gangtok",
+    "risk": 69,
+    "message": "Slope instability may affect hill roads after rainfall.",
+    "action": "Avoid closed or visibly unstable road sections.",
+    "timestamp": "2026-09-02T11:40:00Z"
+  },
+  {
+    "id": "ALT-1007",
+    "type": "Flood",
+    "severity": "Moderate",
+    "region": "Surat",
+    "risk": 54,
+    "message": "Drainage and river levels are elevated in this simulated dataset.",
+    "action": "Prepare essential supplies and watch local updates.",
+    "timestamp": "2026-09-02T10:30:00Z"
+  },
+  {
+    "id": "ALT-1008",
+    "type": "Heatwave",
+    "severity": "Severe",
+    "region": "Nagpur",
+    "risk": 81,
+    "message": "Prolonged high temperature creates health stress risk.",
+    "action": "Use cooling, hydrate, and check vulnerable neighbours.",
+    "timestamp": "2026-09-02T09:50:00Z"
+  },
+  {
+    "id": "ALT-1009",
+    "type": "Wildfire",
+    "severity": "Moderate",
+    "region": "Dehradun",
+    "risk": 44,
+    "message": "Dry vegetation and wind increase fire spread potential.",
+    "action": "Avoid smoke and keep evacuation access clear.",
+    "timestamp": "2026-09-01T19:45:00Z"
+  },
+  {
+    "id": "ALT-1010",
+    "type": "Earthquake",
+    "severity": "Low",
+    "region": "Kutch",
+    "risk": 22,
+    "message": "Low-level educational seismic monitoring alert.",
+    "action": "Review Drop-Cover-Hold preparedness.",
+    "timestamp": "2026-09-01T18:10:00Z"
+  },
+  {
+    "id": "ALT-1011",
+    "type": "Industrial Disaster",
+    "severity": "Moderate",
+    "region": "Vadodara",
+    "risk": 46,
+    "message": "Simulated industrial incident preparedness notice.",
+    "action": "Know shelter-in-place procedures and emergency contacts.",
+    "timestamp": "2026-09-01T16:20:00Z"
+  },
+  {
+    "id": "ALT-1012",
+    "type": "Cyclone",
+    "severity": "High",
+    "region": "Puri",
+    "risk": 74,
+    "message": "Coastal wind and rainfall risk is elevated in the training scenario.",
+    "action": "Prepare emergency kit and identify nearest shelter.",
+    "timestamp": "2026-09-01T15:10:00Z"
+  }
+]

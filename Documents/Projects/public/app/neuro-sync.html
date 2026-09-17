@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Neuro-Sync Response · Aegis</title><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/css/tailwind-aegis.css"><link rel="stylesheet" href="/css/neuro-sync.css"></head><body><div id="page-content">
+<div id="neuro-sync-app" class="ns-app">
+  <section class="ns-health" aria-label="System health"><span><i id="ws-dot"></i> WebSocket <b id="ws-state">Connecting</b></span><span>MQTT <b id="mqtt-state">—</b></span><span>P2P peers <b id="peer-count">0</b></span><span class="ns-private">⌾ Local-only biometrics</span><span>Latency <b id="latency">—</b></span></section>
+  <section class="ns-controls card"><div><span class="eyebrow">Judge demo controls</span><h2>Three-tier response intelligence</h2><p class="muted">Run the complete verification → rerouting → cognitive fallback story.</p></div><div class="card-actions"><button id="run-verification" class="btn btn-primary" type="button">1 · Verify incident</button><button id="fail-node" class="btn btn-ghost" type="button">2 · Simulate node failure</button><button id="toggle-stress" class="btn btn-danger" type="button">3 · Simulate high stress</button><button id="reset-demo" class="btn btn-ghost" type="button">Reset</button></div></section>
+  <div class="ns-grid">
+    <section class="card ns-tier" data-tier="1"><header><div><span class="eyebrow">Tier 1 · Verification</span><h2>Satellite anomaly + distress NLP</h2></div><span id="verify-badge" class="status status-moderate">Awaiting scan</span></header>
+      <label class="ns-label" for="distress-message">Incoming distress message</label><textarea id="distress-message" class="input" rows="3">People trapped after building collapse at 23.0225, 72.5714. Need help urgently.</textarea>
+      <div class="satellite-compare"><figure><canvas id="before-canvas" width="256" height="180"></canvas><figcaption>Pre-event patch</figcaption></figure><figure><canvas id="after-canvas" width="256" height="180"></canvas><figcaption>Post-event patch</figcaption></figure><div class="scan-line"></div></div>
+      <div class="ns-readout"><div><span>SSIM</span><strong id="ssim-value">—</strong><small>Threshold &lt; 0.75</small></div><div><span>NLP confidence</span><strong id="nlp-score">—</strong><small id="keywords">No keywords scanned</small></div><div><span>Coordinates</span><strong id="coordinates">—</strong><small>Extracted locally</small></div></div>
+    </section>
+    <section class="card ns-tier" data-tier="2"><header><div><span class="eyebrow">Tier 2 · Local Mesh</span><h2>Self-healing packet route</h2></div><span id="route-time" class="status status-safe">Ready</span></header>
+      <svg id="mesh-graph" viewBox="0 0 620 350" role="img" aria-label="Interactive field mesh graph"></svg>
+      <div class="ns-route"><span>Route</span><code id="route-label">Wearable → Relay A → Command</code><span>Cost <b id="route-cost">—</b></span></div><p class="tiny muted">Click any relay node to toggle it offline. Dijkstra recalculates the lowest-cost surviving path.</p>
+    </section>
+    <section class="card ns-tier ns-vitals" data-tier="3"><header><div><span class="eyebrow">Tier 3 · Adaptive Display</span><h2>Responder cognitive load</h2></div><span id="stress-badge" class="status status-safe">CALM</span></header>
+      <div class="vital-grid"><div><span>Heart rate</span><strong><b id="hr-value">78</b> BPM</strong><canvas id="hr-chart" width="420" height="100"></canvas></div><div><span>EDA</span><strong><b id="eda-value">2.1</b> μS</strong><canvas id="eda-chart" width="420" height="100"></canvas></div></div>
+      <div class="privacy-note">Raw HR/EDA samples stay in browser memory. Only the derived CALM/HIGH-STRESS state controls the display.</div>
+    </section>
+  </div>
+  <section id="stress-hud" class="stress-hud" aria-hidden="true"><div class="hud-label">HIGH STRESS MODE</div><div class="exit-arrow">➜</div><h2>EXIT EAST · 42 m</h2><p>Secondary feeds hidden to reduce cognitive load</p><button id="return-calm" class="hud-button" type="button">Return to calm mode</button></section>
+</div></div><script src="/js/common.js"></script><script src="/js/app.js"></script><script type="module" src="/js/pages/neuro-sync.js"></script></body></html>

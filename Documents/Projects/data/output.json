@@ -1,0 +1,11 @@
+{
+  "application": "Aegis — Pre-Disaster Detector & Emergency Management System",
+  "purpose": "Pre-disaster risk detection and emergency coordination",
+  "technologies": [
+    "Node.js",
+    "Express.js",
+    "JSON",
+    "JavaScript"
+  ],
+  "generatedAt": "2026-09-02T17:31:45.244Z"
+}

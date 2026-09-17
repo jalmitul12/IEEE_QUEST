@@ -1,0 +1,12 @@
+node_modules/
+.env
+npm-debug.log*
+.DS_Store
+coverage/
+data/users.json
+data/sos.json
+data/tasks.json
+data/user_state.json
+data/runtime/
+data/*.lock
+data/*.tmp

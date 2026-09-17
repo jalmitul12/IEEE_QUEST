@@ -1,0 +1,90 @@
+[
+  {
+    "id": "RT-101",
+    "name": "Rapid Response Alpha",
+    "type": "Medical",
+    "members": 8,
+    "status": "Available",
+    "location": "Ahmedabad Central",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-102",
+    "name": "Flood Rescue Bravo",
+    "type": "Water Rescue",
+    "members": 10,
+    "status": "Responding",
+    "location": "Sabarmati Zone",
+    "assignedIncidentId": "INC-1004",
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-103",
+    "name": "Fire Unit Charlie",
+    "type": "Fire & Rescue",
+    "members": 7,
+    "status": "Available",
+    "location": "Maninagar",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-104",
+    "name": "Logistics Delta",
+    "type": "Logistics",
+    "members": 12,
+    "status": "Assigned",
+    "location": "Paldi",
+    "assignedIncidentId": "INC-1003",
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-105",
+    "name": "Search Team Echo",
+    "type": "Search & Rescue",
+    "members": 9,
+    "status": "Available",
+    "location": "Gandhinagar",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-106",
+    "name": "Medical Foxtrot",
+    "type": "Medical",
+    "members": 6,
+    "status": "Offline",
+    "location": "Vastrapur",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-107",
+    "name": "Civil Defence Gamma",
+    "type": "Civil Defence",
+    "members": 14,
+    "status": "Available",
+    "location": "Naroda",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  },
+  {
+    "id": "RT-108",
+    "name": "Evacuation Hotel",
+    "type": "Evacuation",
+    "members": 11,
+    "status": "Available",
+    "location": "Bopal",
+    "assignedIncidentId": null,
+    "updatedAt": "2026-09-02T12:00:00Z",
+    "assignedSosId": null
+  }
+]

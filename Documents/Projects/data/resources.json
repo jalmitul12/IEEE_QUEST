@@ -1,0 +1,98 @@
+[
+  {
+    "id": "RES-101",
+    "type": "Hospital",
+    "name": "Civil Hospital Ahmedabad",
+    "latitude": 23.0524,
+    "longitude": 72.6027,
+    "contact": "108"
+  },
+  {
+    "id": "RES-102",
+    "type": "Hospital",
+    "name": "SVP Hospital",
+    "latitude": 23.0217,
+    "longitude": 72.5718,
+    "contact": "108"
+  },
+  {
+    "id": "RES-103",
+    "type": "Police",
+    "name": "Navrangpura Police Station",
+    "latitude": 23.0361,
+    "longitude": 72.56,
+    "contact": "112"
+  },
+  {
+    "id": "RES-104",
+    "type": "Police",
+    "name": "Maninagar Police Station",
+    "latitude": 22.9981,
+    "longitude": 72.6058,
+    "contact": "112"
+  },
+  {
+    "id": "RES-105",
+    "type": "Fire Station",
+    "name": "Jamalpur Fire Station",
+    "latitude": 23.014,
+    "longitude": 72.5845,
+    "contact": "101"
+  },
+  {
+    "id": "RES-106",
+    "type": "Fire Station",
+    "name": "Bodakdev Fire Station",
+    "latitude": 23.0402,
+    "longitude": 72.5087,
+    "contact": "101"
+  },
+  {
+    "id": "RES-107",
+    "type": "Assembly Point",
+    "name": "Riverfront Assembly Point A",
+    "latitude": 23.0258,
+    "longitude": 72.571,
+    "contact": "Aegis demo"
+  },
+  {
+    "id": "RES-108",
+    "type": "Assembly Point",
+    "name": "GMDC Ground Assembly Point",
+    "latitude": 23.0425,
+    "longitude": 72.5433,
+    "contact": "Aegis demo"
+  },
+  {
+    "id": "RES-109",
+    "type": "Hospital",
+    "name": "Gandhinagar Civil Hospital",
+    "latitude": 23.2156,
+    "longitude": 72.6369,
+    "contact": "108"
+  },
+  {
+    "id": "RES-110",
+    "type": "Police",
+    "name": "Satellite Police Station",
+    "latitude": 23.0284,
+    "longitude": 72.5176,
+    "contact": "112"
+  },
+  {
+    "id": "RES-111",
+    "type": "Fire Station",
+    "name": "Chandkheda Fire Station",
+    "latitude": 23.1094,
+    "longitude": 72.5841,
+    "contact": "101"
+  },
+  {
+    "id": "RES-112",
+    "type": "Assembly Point",
+    "name": "Kankaria Assembly Point",
+    "latitude": 23.006,
+    "longitude": 72.6,
+    "contact": "Aegis demo"
+  }
+]
